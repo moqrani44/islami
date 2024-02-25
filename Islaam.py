@@ -189,7 +189,7 @@ def linex():
 os.system('xdg-open https://chat.whatsapp.com/JJfccbKpGu9BChyGH7GoLA')
 def clear():
         os.system('clear')
-        print(logo)
+        print('\033[1;32m')
 A = '\x1b[1;97m' 
 B = '\x1b[1;96m' 
 C = '\x1b[1;91m' 
